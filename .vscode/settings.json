@@ -3,14 +3,8 @@
   "files.eol": "\n", // for Mac LF
   "editor.tabSize": 2,
   "eslint.validate": ["typescript", "typescriptreact"],
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  // 預設格式修正器： prettier
+  "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  // ts, tsx 有指定的修改器，故需另外再設定
-  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   // todo tree
   "todo-tree.general.tags": [
     "BUG",
@@ -22,6 +16,5 @@
   ],
   "todo-tree.highlights.customHighlight": {
     "eslint-disable": { "icon": "flame", "iconColour": "red" }
-  },
-  "liveServer.settings.port": 5501
+  }
 }
