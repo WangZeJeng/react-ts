@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import reportWebVitals from './reportWebVitals';
 import indexRouter from './router';
 
 ReactDOM.render(
@@ -18,4 +17,3 @@ ReactDOM.render(
 
   document.getElementById('root')
 );
-reportWebVitals();
